@@ -29,6 +29,7 @@ def test(data,
          augment=False,
          verbose=False,
          model=None,
+
          dataloader=None,
          save_dir=Path(''),  # for saving images
          save_txt=False,  # for auto-labelling
